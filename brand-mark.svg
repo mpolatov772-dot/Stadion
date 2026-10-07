@@ -1,0 +1,97 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="ballFill" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 210) rotate(48) scale(486)">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.72" stop-color="#F7FAFD"/>
+      <stop offset="1" stop-color="#D7DEE6"/>
+    </radialGradient>
+    <radialGradient id="gloss" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(274 186) rotate(48) scale(198)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panelBase" x1="202" y1="148" x2="524" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#163B36"/>
+      <stop offset="0.55" stop-color="#0E2623"/>
+      <stop offset="1" stop-color="#091917"/>
+    </linearGradient>
+    <linearGradient id="mintEdge" x1="214" y1="176" x2="482" y2="508" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#79F2CF"/>
+      <stop offset="1" stop-color="#3BC59C"/>
+    </linearGradient>
+    <linearGradient id="copperEdge" x1="218" y1="170" x2="488" y2="517" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6C08A"/>
+      <stop offset="1" stop-color="#9E6037"/>
+    </linearGradient>
+    <pattern id="panelPattern" width="120" height="120" patternUnits="userSpaceOnUse">
+      <rect width="120" height="120" fill="url(#panelBase)"/>
+      <circle cx="18" cy="20" r="2.5" fill="#F2B782" opacity="0.85"/>
+      <circle cx="30" cy="30" r="1.8" fill="#76EACA" opacity="0.8"/>
+      <circle cx="40" cy="18" r="1.4" fill="#76EACA" opacity="0.65"/>
+      <circle cx="84" cy="24" r="2.2" fill="#F2B782" opacity="0.8"/>
+      <circle cx="94" cy="38" r="1.4" fill="#76EACA" opacity="0.75"/>
+      <circle cx="26" cy="92" r="2.1" fill="#76EACA" opacity="0.75"/>
+      <circle cx="92" cy="94" r="2.4" fill="#F2B782" opacity="0.8"/>
+      <path d="M10 84C22 76 35 60 42 44" stroke="#76EACA" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+      <path d="M18 78C23 74 29 67 34 59" stroke="#76EACA" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+      <path d="M26 72C31 68 36 61 40 54" stroke="#76EACA" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+      <path d="M82 18C90 24 100 35 108 48" stroke="#76EACA" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+      <path d="M76 26C82 31 89 39 95 48" stroke="#76EACA" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+      <path d="M68 34C74 39 80 46 86 55" stroke="#76EACA" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+      <path d="M54 10L57 18L65 21L57 24L54 32L51 24L43 21L51 18L54 10Z" fill="#FFF6EA" opacity="0.92"/>
+      <path d="M96 66L99 74L107 77L99 80L96 88L93 80L85 77L93 74L96 66Z" fill="#FFF6EA" opacity="0.9"/>
+      <path d="M38 96L41 104L49 107L41 110L38 118L35 110L27 107L35 104L38 96Z" fill="#FFF6EA" opacity="0.88"/>
+      <path d="M4 58L116 8" stroke="#F2B782" stroke-width="1.4" opacity="0.3"/>
+      <path d="M-10 84L102 34" stroke="#F2B782" stroke-width="1.4" opacity="0.24"/>
+    </pattern>
+    <filter id="shadow" x="30" y="32" width="660" height="660" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="18"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0235294 0 0 0 0 0.054902 0 0 0 0 0.113725 0 0 0 0.26 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <circle cx="360" cy="342" r="292" fill="url(#ballFill)"/>
+    <circle cx="360" cy="342" r="292" stroke="#F2F6FB" stroke-width="12"/>
+    <circle cx="360" cy="342" r="288" stroke="#173C37" stroke-width="7"/>
+    <circle cx="360" cy="342" r="292" fill="url(#gloss)" opacity="0.85"/>
+
+    <g opacity="0.98">
+      <path d="M360 94L444 128L423 214H297L276 128L360 94Z" fill="url(#panelPattern)" stroke="white" stroke-width="20" stroke-linejoin="round"/>
+      <path d="M360 94L444 128L423 214H297L276 128L360 94Z" stroke="url(#mintEdge)" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M360 94L444 128L423 214H297L276 128L360 94Z" stroke="url(#copperEdge)" stroke-width="4.5" stroke-linejoin="round" opacity="0.9"/>
+
+      <path d="M558 240L586 327L520 386L435 351L431 262L501 206L558 240Z" fill="url(#panelPattern)" stroke="white" stroke-width="20" stroke-linejoin="round"/>
+      <path d="M558 240L586 327L520 386L435 351L431 262L501 206L558 240Z" stroke="url(#mintEdge)" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M558 240L586 327L520 386L435 351L431 262L501 206L558 240Z" stroke="url(#copperEdge)" stroke-width="4.5" stroke-linejoin="round" opacity="0.9"/>
+
+      <path d="M481 457L531 528L478 600L390 580L374 496L428 440L481 457Z" fill="url(#panelPattern)" stroke="white" stroke-width="20" stroke-linejoin="round"/>
+      <path d="M481 457L531 528L478 600L390 580L374 496L428 440L481 457Z" stroke="url(#mintEdge)" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M481 457L531 528L478 600L390 580L374 496L428 440L481 457Z" stroke="url(#copperEdge)" stroke-width="4.5" stroke-linejoin="round" opacity="0.9"/>
+
+      <path d="M239 457L292 440L346 496L330 580L242 600L189 528L239 457Z" fill="url(#panelPattern)" stroke="white" stroke-width="20" stroke-linejoin="round"/>
+      <path d="M239 457L292 440L346 496L330 580L242 600L189 528L239 457Z" stroke="url(#mintEdge)" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M239 457L292 440L346 496L330 580L242 600L189 528L239 457Z" stroke="url(#copperEdge)" stroke-width="4.5" stroke-linejoin="round" opacity="0.9"/>
+
+      <path d="M162 240L219 206L289 262L285 351L200 386L134 327L162 240Z" fill="url(#panelPattern)" stroke="white" stroke-width="20" stroke-linejoin="round"/>
+      <path d="M162 240L219 206L289 262L285 351L200 386L134 327L162 240Z" stroke="url(#mintEdge)" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M162 240L219 206L289 262L285 351L200 386L134 327L162 240Z" stroke="url(#copperEdge)" stroke-width="4.5" stroke-linejoin="round" opacity="0.9"/>
+    </g>
+
+    <path d="M360 166L419 285L550 304L456 394L478 529L360 467L242 529L264 394L170 304L301 285L360 166Z" fill="url(#panelPattern)" stroke="white" stroke-width="24" stroke-linejoin="round"/>
+    <path d="M360 166L419 285L550 304L456 394L478 529L360 467L242 529L264 394L170 304L301 285L360 166Z" stroke="#143631" stroke-width="11" stroke-linejoin="round"/>
+    <path d="M360 166L419 285L550 304L456 394L478 529L360 467L242 529L264 394L170 304L301 285L360 166Z" stroke="url(#mintEdge)" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M360 166L419 285L550 304L456 394L478 529L360 467L242 529L264 394L170 304L301 285L360 166Z" stroke="url(#copperEdge)" stroke-width="4" stroke-linejoin="round" opacity="0.9"/>
+
+    <path d="M360 214L402 298L497 311L428 378L445 474L360 431L275 474L292 378L223 311L318 298L360 214Z" fill="#FFFDFB"/>
+    <path d="M360 214L402 298L497 311L428 378L445 474L360 431L275 474L292 378L223 311L318 298L360 214Z" stroke="#173C37" stroke-width="9" stroke-linejoin="round"/>
+
+    <circle cx="360" cy="342" r="30" fill="#173C37"/>
+    <circle cx="360" cy="342" r="17" fill="white"/>
+    <path d="M360 324L365 336L378 342L365 348L360 360L355 348L342 342L355 336L360 324Z" fill="#C68956"/>
+  </g>
+</svg>

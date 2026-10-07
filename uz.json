@@ -1,0 +1,428 @@
+{
+  "meta": {
+    "title": "Goalix",
+    "description": "Goalix — stadion band qilish uchun 3 rolli platforma: foydalanuvchi, stadion egasi va admin."
+  },
+  "app": {
+    "name": "Goalix",
+    "subtitle": "Stadion band qilish platformasi",
+    "desktopBadgeTitle": "Kompyuter uchun qulay ish jarayoni",
+    "desktopBadgeDescription": "Stadion boshqaruvi va band qilishlarni kuzatish uchun qurilgan."
+  },
+  "common": {
+    "cancel": "Bekor qilish",
+    "edit": "Tahrirlash",
+    "delete": "O'chirish",
+    "reset": "Tozalash",
+    "save": "Saqlash",
+    "search": "Qidirish",
+    "loadingPage": "Sahifa yuklanmoqda...",
+    "loadingSession": "Sessiya yuklanmoqda...",
+    "loadingData": "Ma'lumotlar yuklanmoqda...",
+    "loadingHint": "Server ma'lumotlarni tayyorlamoqda.",
+    "description": "Tavsif",
+    "email": "Email",
+    "password": "Parol",
+    "phone": "Telefon",
+    "fullName": "To'liq ism",
+    "notes": "Izoh",
+    "selectedVenue": "Tanlangan stadion",
+    "paymentSummary": "To'lov xulosasi",
+    "totalPrice": "Umumiy narx",
+    "discount": "Chegirma",
+    "paidNow": "Hozir to'lanadi",
+    "remaining": "Qolgan summa",
+    "finalTotal": "Yakuniy summa",
+    "allCities": "Barcha shaharlar",
+    "businessInfo": "Biznes ma'lumoti",
+    "workingHours": "Ish vaqtlari",
+    "noData": "Ma'lumot topilmadi",
+    "image": "Rasm",
+    "error": "Xatolik"
+  },
+  "buttons": {
+    "login": "Kirish",
+    "register": "Ro'yxatdan o'tish",
+    "logout": "Chiqish",
+    "logoutDevice": "Ushbu qurilmadan chiqish",
+    "createAccount": "Hisob yaratish",
+    "exploreStadiums": "Stadionlarni ko'rish",
+    "viewStadium": "Stadionni ko'rish",
+    "bookNow": "Band qilish",
+    "loginToBook": "Band qilish uchun kiring",
+    "cancelBooking": "Bronni bekor qilish",
+    "approveBooking": "Bronni tasdiqlash",
+    "rejectBooking": "Rad etish",
+    "saveProfile": "Profilni saqlash",
+    "uploadAvatar": "Avatar yuklash",
+    "uploadImages": "Rasm yuklash",
+    "createStadium": "Stadion yaratish",
+    "updateStadium": "Stadionni yangilash",
+    "saveStadium": "Stadionni saqlash",
+    "returnHome": "Bosh sahifaga qaytish",
+    "retry": "Qayta yuklash"
+  },
+  "labels": {
+    "stadiumName": "Stadion nomi",
+    "address": "Manzil",
+    "pricePerSlot": "Bir soat narxi",
+    "operationalCost": "Ekspluatatsiya xarajati",
+    "imageUrls": "Rasmlar",
+    "equipment": "Jihozlar",
+    "paymentOption": "To'lov turi",
+    "profileAvatar": "Avatar rasmi",
+    "selectRole": "Rolni tanlang",
+    "businessName": "Biznes nomi",
+    "district": "Tuman yoki hudud",
+    "telegram": "Telegram",
+    "bookingDate": "Bron sanasi",
+    "bookingTime": "Bron vaqti"
+  },
+  "placeholders": {
+    "loginEmail": "owner@stadionhub.uz",
+    "password": "Parolingizni kiriting",
+    "stadiumName": "Toshkent Premium Arena",
+    "stadiumDescription": "Maydon qulayligi, jihozlari va sharoitini qisqacha yozing.",
+    "address": "Ko'cha yoki tuman",
+    "equipment": "Kiyinish xonasi",
+    "searchStadiums": "Stadion nomi yoki tavsifi bo'yicha qidiring",
+    "bookingNotes": "Ixtiyoriy izoh yoki o'yin tafsilotlari",
+    "businessName": "Masalan, Chilonzor Arena",
+    "district": "Masalan, Chilonzor tumani",
+    "telegram": "@stadion_nomi",
+    "locationSearch": "Shaharni qidiring",
+    "addressSearch": "Ko'cha, tuman yoki hudud bo'yicha qidiring"
+  },
+  "nav": {
+    "stadiums": "Stadionlar",
+    "dashboard": "Panel",
+    "ownerStats": "Statistika",
+    "admin": "Admin panel",
+    "profile": "Profil",
+    "settings": "Sozlamalar"
+  },
+  "routeTitles": {
+    "stadiums": "Stadionlar katalogi",
+    "dashboard": "Rolga mos panel",
+    "ownerStats": "Ega statistikasi",
+    "admin": "Admin panel",
+    "profile": "Profil",
+    "settings": "Sozlamalar"
+  },
+  "auth": {
+    "loginTitle": "Xush kelibsiz",
+    "loginDescription": "Platformadagi ishlaringizni davom ettirish uchun kiring.",
+    "registerTitle": "Hisob yaratish",
+    "registerDescription": "Rolingizni tanlang va platformadan foydalanishni boshlang.",
+    "heroTitle": "Stadion band qilish, tasdiqlash va statistika bir joyda.",
+    "heroDescription": "Foydalanuvchi, stadion egasi va admin uchun rolga asoslangan ish oqimlari.",
+    "heroNote": "Namunaviy hisoblar quyida ko'rsatilgan.",
+    "sampleAccounts": "Namunaviy hisoblar",
+    "sampleUser": "Foydalanuvchi",
+    "sampleOwner": "Stadion egasi",
+    "alreadyHaveAccount": "Hisobingiz bormi?",
+    "loginHere": "Bu yer orqali kiring",
+    "needAccount": "Hisob kerakmi?",
+    "registerHere": "Bu yerda ro'yxatdan o'ting"
+  },
+  "empty": {
+    "noStadiumResults": "Stadion topilmadi",
+    "noStadiumResultsDescription": "Qidiruvni kengaytiring yoki shahar filtrini tozalang.",
+    "noReport": "Hisobot ma'lumoti yo'q",
+    "noReportDescription": "Stadion faoliyati paydo bo'lgach, statistika shu yerda chiqadi.",
+    "noBookingsYet": "Hozircha bron yo'q",
+    "noBookingsYetDescription": "Avval stadionlar bo'limidan maydon band qiling.",
+    "noOwnerStadiums": "Hozircha stadion yo'q",
+    "noOwnerStadiumsDescription": "Bron olishni boshlash uchun stadion yarating.",
+    "noOwnerBookings": "Bronlar yo'q",
+    "noOwnerBookingsDescription": "Yangi bronlar shu yerda boshqaruv uchun ko'rinadi.",
+    "noUsersFound": "Foydalanuvchi topilmadi"
+  },
+  "stadiumsPage": {
+    "eyebrow": "Stadion bozori",
+    "title": "O'zbekiston bo'ylab futbol maydonlarini toping",
+    "description": "Shahar bo'yicha qidiring, tafsilotlarni ko'ring va aniq vaqtlar hamda narxlar bilan bron qilishga o'ting.",
+    "nearFilterLabel": "Yaqin atrofda: {label}",
+    "clearNearAria": "Joylashuv filtrini tozalash"
+  },
+  "stadiumDetails": {
+    "slotPrice": "Bir soat narxi",
+    "rating": "Baho",
+    "rateThisStadium": "Stadionni baholang",
+    "rateThisStadiumHint": "Yulduzchani bosib, ushbu stadionga bahoingizni bering.",
+    "owner": "Ega",
+    "equipment": "Jihozlar",
+    "workingHours": "Ish vaqtlari",
+    "workingHoursHint": "Stadion egasining qaysi kunlari nechidan nechigacha ishlashi ko'rsatiladi.",
+    "noWorkingHours": "Hozircha ish vaqtlari kiritilmagan",
+    "bookingCardTitle": "Band qilish bo'limi",
+    "bookingCardDescription": "Pastdagi tugma orqali qulay vaqtingizni tanlab bron so'rovini yuborasiz."
+  },
+  "bookingPage": {
+    "eyebrow": "Bron jarayoni",
+    "title": "{name} stadionini band qilish",
+    "description": "Bo'sh vaqtni tanlang, to'lov turini belgilang va bronni yuboring.",
+    "pendingNote": "So'rov yuborilgach, stadion egasi uni tasdiqlaydi yoki rad etadi.",
+    "availableTimes": "Mavjud vaqtlar",
+    "slotSelectionHint": "Bo'sh vaqtni bosing. Chizib qo'yilgan vaqtlar band.",
+    "selectTimeFirst": "Avval o'zingizga mos vaqtni tanlang.",
+    "noAvailableSlots": "Tanlangan sana uchun bo'sh vaqt topilmadi",
+    "startTimeLabel": "Boshlanish vaqti",
+    "endTimeLabel": "Tugash vaqti",
+    "endSelectionHint": "Boshlanish vaqti tanlangach, tugash vaqtini tanlang.",
+    "chooseStartFirst": "Avval boshlanish vaqtini tanlang.",
+    "selectedSlotTitle": "Tanlangan vaqt",
+    "noEndTimeOptions": "Bu boshlanish vaqti uchun tugash variantlari topilmadi.",
+    "selectedDuration": "{hours} soat",
+    "clickRedirectHint": "30% yoki 100% to'lov tanlansa, siz avtomatik Click to'loviga o'tasiz.",
+    "confirmingBooking": "Bron yuborilmoqda...",
+    "sendBookingRequest": "Bron so'rovini yuborish"
+  },
+  "dashboard": {
+    "eyebrow": "{role} paneli",
+    "title": "Qaytganingizdan xursandmiz, {name}",
+    "description": "Ish joyingiz rolingizga moslashtirilgan.",
+    "sections": {
+      "myBookings": "Mening bronlarim",
+      "myStadiums": "Mening stadionlarim",
+      "bookingRequests": "Bron so'rovlari",
+      "recentBookings": "So'nggi bronlar"
+    },
+    "stats": {
+      "My stadiums": "Mening stadionlarim",
+      "Total bookings": "Jami bronlar",
+      "Pending bookings": "Kutilayotgan bronlar",
+      "Confirmed bookings": "Tasdiqlangan bronlar"
+    }
+  },
+  "reportsPage": {
+    "eyebrow": "Ega statistikasi",
+    "title": "Moliyaviy ko'rinish",
+    "description": "Tushum, xarajatlar va sof foyda/zarar holatini kuzating.",
+    "bookingTrend": "Oylik daromad dinamikasi",
+    "bookingTrendHint": "Tasdiqlangan bronlardan kelgan oylik daromad, so'nggi qiymat belgilangan.",
+    "statusBreakdown": "Bronlar taqsimoti",
+    "statusBreakdownHint": "Barcha bronlaringiz holat bo'yicha qanday taqsimlanganini ko'ring.",
+    "bookingHistory": "Bronlar tarixi",
+    "totalBookings": "Jami bronlar",
+    "confirmedBookings": "Tasdiqlangan bronlar",
+    "pendingRequests": "Kutilayotgan so'rovlar",
+    "income": "Jami daromad",
+    "expenses": "Jami xarajatlar",
+    "netProfit": "Sof foyda",
+    "netLoss": "Sof zarar"
+  },
+  "adminPage": {
+    "eyebrow": "Admin panel",
+    "title": "Tizim boshqaruvi",
+    "description": "Foydalanuvchilarni boshqaring, barcha bronlarni kuzating va tizim sozlamalarini tahrirlang.",
+    "tabs": {
+      "stats": "Statistika",
+      "users": "Foydalanuvchilar",
+      "bookings": "Bronlar",
+      "settings": "Sozlamalar"
+    },
+    "statsHint": "Barcha stadion egalarining bronlari bo'yicha umumiy taqsimot.",
+    "stadiumOwners": "Stadion egalari",
+    "regularUsers": "Foydalanuvchilar",
+    "admins": "Administratorlar",
+    "activate": "Faollashtirish",
+    "deactivate": "Faolsizlantirish",
+    "siteName": "Sayt nomi",
+    "currency": "Valyuta",
+    "supportPhone": "Qo'llab-quvvatlash telefoni",
+    "supportEmail": "Qo'llab-quvvatlash email",
+    "minBookingNoticeHours": "Bron uchun minimal muddat (soat)"
+  },
+  "profilePage": {
+    "eyebrow": "Profil",
+    "title": "Hisob ma'lumotlarini boshqarish",
+    "description": "Ko'rinadigan profil ma'lumotlarini toza va dolzarb saqlang."
+  },
+  "settingsPage": {
+    "eyebrow": "Sozlamalar",
+    "title": "Sessiya va xavfsizlik",
+    "description": "Joriy sessiyangizni boshqaring.",
+    "sessionTitle": "Sessiya",
+    "sessionDescription": "Tokenli sessiyangiz qurilmada saqlanadi va chiqmaguningizcha avtomatik tiklanadi.",
+    "securityTitle": "Xavfsizlik boshqaruvi",
+    "securityDescription": "Ushbu qurilmadagi saqlangan sessiyani tozalash uchun chiqish tugmasidan foydalaning."
+  },
+  "notFoundPage": {
+    "eyebrow": "404",
+    "title": "Sahifa topilmadi",
+    "description": "So'ralgan sahifa joriy ilova oqimida mavjud emas."
+  },
+  "forms": {
+    "stadium": {
+      "description": "E'lonni soddalashtiring va har bir vaqt oralig'ini aniq ko'rsating."
+    }
+  },
+  "map": {
+    "title": "O'zbekiston stadion xaritasi",
+    "description": "Qo'llab-quvvatlanadigan O'zbekiston shaharlarida faol futbol maydonlarini ko'ring.",
+    "searchPlaceholder": "Xaritadan joy qidiring",
+    "miniStadium": "Mini stadion",
+    "legendStadiums": "Bizdagi stadionlar",
+    "legendPitches": "OSM mini stadionlari",
+    "pitchHint": "Xaritani yaqinlashtiring — hududdagi mini stadionlar ⚽ belgisi bilan ko'rinadi.",
+    "attribution": "&copy; OpenStreetMap ma'lumotlari",
+    "layers": {
+      "dark": "Qorong'i",
+      "satellite": "Sputnik",
+      "street": "Ko'cha xaritasi"
+    }
+  },
+  "locationSearch": {
+    "searching": "Qidirilmoqda...",
+    "noResults": "Hech narsa topilmadi",
+    "error": "Qidiruvni bajarib bo'lmadi. Birozdan keyin qayta urinib ko'ring."
+  },
+  "cards": {
+    "workingHoursShort": "Ish vaqti",
+    "ownerProfile": "Ega profili",
+    "perSlot": "bir soat narxi",
+    "noRatingsYet": "Hali baholanmagan"
+  },
+  "roles": {
+    "user": "Foydalanuvchi",
+    "stadiumOwner": "Stadion egasi",
+    "admin": "Administrator"
+  },
+  "statuses": {
+    "pending": "Kutilmoqda",
+    "confirmed": "Tasdiqlangan",
+    "rejected": "Rad etildi",
+    "cancelled": "Bekor qilingan"
+  },
+  "cities": {
+    "Tashkent": "Toshkent",
+    "Samarkand": "Samarqand",
+    "Bukhara": "Buxoro",
+    "Namangan": "Namangan",
+    "Andijan": "Andijon",
+    "Fergana": "Farg'ona",
+    "Nukus": "Nukus",
+    "Karshi": "Qarshi",
+    "Termez": "Termiz",
+    "Urgench": "Urganch",
+    "Jizzakh": "Jizzax",
+    "Gulistan": "Guliston",
+    "Navoi": "Navoiy"
+  },
+  "paymentOptions": {
+    "PREPAY_30": {
+      "label": "30% avans to'lovi",
+      "description": "Hozir joyni band qiling, qolganini keyin to'lang."
+    },
+    "FULL_100": {
+      "label": "100% to'liq to'lov",
+      "description": "Hozir to'liq to'lang va 10% chegirma oling."
+    },
+    "OFFLINE": {
+      "label": "Joyida yoki oflayn to'lov",
+      "description": "Bron tasdiqlangach, to'lovni joyida amalga oshirasiz."
+    }
+  },
+  "optionDescriptions": {
+    "roles": {
+      "user": "Stadion qidiring va band qiling.",
+      "stadiumOwner": "Stadion yarating, bronlarni boshqaring va statistikani ko'ring."
+    }
+  },
+  "messages": {
+    "loginSuccess": "Muvaffaqiyatli kirdingiz",
+    "registerSuccess": "Hisob muvaffaqiyatli yaratildi",
+    "profileUpdated": "Profil yangilandi",
+    "settingsUpdated": "Sozlamalar saqlandi",
+    "stadiumUpdated": "Stadion yangilandi",
+    "stadiumCreated": "Stadion yaratildi",
+    "bookingUpdated": "Bron yangilandi",
+    "bookingRequestCreated": "Bron so'rovi yuborildi",
+    "clickRedirectUnavailable": "Bron saqlandi. Click yo'naltirish havolasi hali sozlanmagan.",
+    "selectValidSlot": "To'g'ri vaqt oralig'ini tanlang",
+    "loggingIn": "Kirilmoqda...",
+    "creatingAccount": "Hisob yaratilmoqda...",
+    "userUpdated": "Foydalanuvchi yangilandi",
+    "ratingSubmitted": "Bahoingiz saqlandi"
+  },
+  "errors": {
+    "generic": "Xatolik yuz berdi. Iltimos, qayta urinib ko'ring.",
+    "apiUnavailable": "Server bilan ulanib bo'lmadi.",
+    "loginFailed": "Kirish amalga oshmadi",
+    "registrationFailed": "Ro'yxatdan o'tish amalga oshmadi",
+    "saveProfileFailed": "Profilni saqlab bo'lmadi",
+    "saveStadiumFailed": "Stadionni saqlab bo'lmadi",
+    "updateBookingFailed": "Bronni yangilab bo'lmadi",
+    "updateUserFailed": "Foydalanuvchini yangilab bo'lmadi",
+    "updateSettingsFailed": "Sozlamalarni saqlab bo'lmadi",
+    "bookingFailed": "Bron qilish amalga oshmadi",
+    "loadAvailabilityFailed": "Mavjud vaqtlarni yuklab bo'lmadi",
+    "authTokenRequired": "Autentifikatsiya tokeni talab qilinadi",
+    "invalidToken": "Token noto'g'ri",
+    "sessionInvalid": "Sessiya endi amal qilmaydi",
+    "endpointNotFound": "So'ralgan manzil topilmadi",
+    "resourceNotFound": "Resurs topilmadi",
+    "validEmail": "To'g'ri email manzilini kiriting",
+    "passwordMin": "Parol kamida 8 ta belgidan iborat bo'lishi kerak",
+    "emailExists": "Bu email bilan hisob allaqachon mavjud",
+    "invalidCredentials": "Email yoki parol noto'g'ri",
+    "roleNotAllowed": "Tanlangan rol ro'yxatdan o'tish uchun ruxsat etilmagan",
+    "locationRequired": "Shahar va koordinatalar ko'rsatilgan manzil talab qilinadi",
+    "stadiumNotFound": "Stadion topilmadi",
+    "bookingNotFound": "Bron topilmadi",
+    "invalidPaymentOption": "Tanlangan to'lov turi noto'g'ri",
+    "requiredFields": "Majburiy maydonlar to'ldirilmagan",
+    "positiveNumber": "Qiymat musbat son bo'lishi kerak",
+    "bookingFieldsRequired": "Stadion, sana, boshlanish vaqti, tugash vaqti hamda to'lov turi talab qilinadi",
+    "stadiumCityInvalid": "Stadion shahri qo'llab-quvvatlanadigan O'zbekiston shaharlaridan biri bo'lishi kerak",
+    "stadiumCoordinatesInvalid": "Stadion koordinatalari O'zbekiston hududida bo'lishi kerak",
+    "stadiumLocationRequired": "Xaritadan stadion joylashuvini tanlang",
+    "stadiumImageRequired": "Kamida bitta stadion rasmini yuklang",
+    "accessDenied": "Bu bo'limga kirish huquqingiz yo'q",
+    "accountDeactivated": "Bu hisob faolsizlantirilgan",
+    "atLeastOneWorkingDay": "Kamida bitta ish kuni tanlanishi kerak",
+    "workingDayFieldsRequired": "Har bir yoqilgan ish kunida boshlanish va tugash vaqti bo'lishi kerak",
+    "workingDayTimeOrder": "Ish kuni tugash vaqti boshlanish vaqtidan keyin bo'lishi kerak",
+    "stadiumUpdateOwnOnly": "Faqat o'zingizning stadioningizni yangilashingiz mumkin",
+    "dateRequired": "Sana tanlanishi kerak",
+    "userNotFound": "Foydalanuvchi topilmadi",
+    "invalidRole": "Rol noto'g'ri",
+    "stadiumClosedOnDay": "Stadion tanlangan kunda yopiq",
+    "endTimeAfterStart": "Tugash vaqti boshlanish vaqtidan keyin bo'lishi kerak",
+    "bookingHourSteps": "Bron vaqti 1 soatlik bosqichlarda tanlanishi kerak",
+    "outsideWorkingHours": "Tanlangan vaqt stadion ish vaqtidan tashqarida",
+    "stadiumAlreadyBooked": "Tanlangan vaqt uchun stadion allaqachon band qilingan",
+    "bookingPermission": "Ushbu bronni boshqarishga ruxsatingiz yo'q",
+    "onlyPendingCanConfirm": "Faqat kutilayotgan bronlarni tasdiqlash mumkin",
+    "onlyPendingCanReject": "Faqat kutilayotgan bronlarni rad etish mumkin",
+    "onlyPendingOrConfirmedCanEdit": "Faqat kutilayotgan yoki tasdiqlangan bronlarni tahrirlash mumkin",
+    "cancelPermission": "Ushbu bronni bekor qilishga ruxsatingiz yo'q",
+    "invalidRating": "Baho 1 dan 5 gachagi butun son bo'lishi kerak",
+    "submitRatingFailed": "Bahoni yuborib bo'lmadi",
+    "locationSearchQueryShort": "Qidiruv uchun kamida 2 ta belgi kiriting",
+    "locationSearchUnavailable": "Manzil qidiruvi hozircha ishlamayapti. Birozdan so'ng qayta urinib ko'ring.",
+    "locationCoordinatesRequired": "To'g'ri kenglik va uzunlik koordinatalari talab qilinadi",
+    "locationOutsideUzbekistan": "Koordinatalar O'zbekiston hududida bo'lishi kerak"
+  },
+  "weekdays": {
+    "monday": "Dushanba",
+    "tuesday": "Seshanba",
+    "wednesday": "Chorshanba",
+    "thursday": "Payshanba",
+    "friday": "Juma",
+    "saturday": "Shanba",
+    "sunday": "Yakshanba"
+  },
+  "timePeriods": {
+    "morning": "Ertalabgi soatlar",
+    "day": "Kunduzgi soatlar",
+    "evening": "Kechki soatlar"
+  },
+  "stadiumForm": {
+    "cityOnlyTitle": "Faqat O'zbekiston shahri va tumani kiriting",
+    "cityOnlyDescription": "Shahar ro'yxatdan tanlanadi. Koordinatalar tizim tomonidan avtomatik qo'yiladi.",
+    "coordinatesAuto": "Avtomatik koordinatalar: {lat}, {lng}",
+    "pickLocationHint": "Xaritada stadion joylashgan nuqtani bosing, shundan keyin lokatsiya belgilanadi."
+  }
+}

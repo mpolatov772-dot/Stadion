@@ -1,0 +1,428 @@
+{
+  "meta": {
+    "title": "Goalix",
+    "description": "Goalix — платформа с 3 ролями для бронирования стадионов: пользователь, владелец стадиона и администратор."
+  },
+  "app": {
+    "name": "Goalix",
+    "subtitle": "Платформа бронирования стадионов",
+    "desktopBadgeTitle": "Удобный рабочий процесс для компьютера",
+    "desktopBadgeDescription": "Создано для управления стадионами и отслеживания бронирований."
+  },
+  "common": {
+    "cancel": "Отмена",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "reset": "Сбросить",
+    "save": "Сохранить",
+    "search": "Поиск",
+    "loadingPage": "Загрузка страницы...",
+    "loadingSession": "Загрузка сессии...",
+    "loadingData": "Загрузка данных...",
+    "loadingHint": "Сервер подготавливает данные.",
+    "description": "Описание",
+    "email": "Email",
+    "password": "Пароль",
+    "phone": "Телефон",
+    "fullName": "Полное имя",
+    "notes": "Примечание",
+    "selectedVenue": "Выбранный стадион",
+    "paymentSummary": "Итог оплаты",
+    "totalPrice": "Общая цена",
+    "discount": "Скидка",
+    "paidNow": "Оплачивается сейчас",
+    "remaining": "Оставшаяся сумма",
+    "finalTotal": "Итоговая сумма",
+    "allCities": "Все города",
+    "businessInfo": "Информация о бизнесе",
+    "workingHours": "Часы работы",
+    "noData": "Данные не найдены",
+    "image": "Изображение",
+    "error": "Ошибка"
+  },
+  "buttons": {
+    "login": "Войти",
+    "register": "Регистрация",
+    "logout": "Выйти",
+    "logoutDevice": "Выйти с этого устройства",
+    "createAccount": "Создать аккаунт",
+    "exploreStadiums": "Смотреть стадионы",
+    "viewStadium": "Смотреть стадион",
+    "bookNow": "Забронировать",
+    "loginToBook": "Войдите, чтобы забронировать",
+    "cancelBooking": "Отменить бронь",
+    "approveBooking": "Подтвердить бронь",
+    "rejectBooking": "Отклонить",
+    "saveProfile": "Сохранить профиль",
+    "uploadAvatar": "Загрузить аватар",
+    "uploadImages": "Загрузить фото",
+    "createStadium": "Создать стадион",
+    "updateStadium": "Обновить стадион",
+    "saveStadium": "Сохранить стадион",
+    "returnHome": "Вернуться на главную",
+    "retry": "Повторить"
+  },
+  "labels": {
+    "stadiumName": "Название стадиона",
+    "address": "Адрес",
+    "pricePerSlot": "Цена за час",
+    "operationalCost": "Эксплуатационные расходы",
+    "imageUrls": "Изображения",
+    "equipment": "Оборудование",
+    "paymentOption": "Способ оплаты",
+    "profileAvatar": "Изображение аватара",
+    "selectRole": "Выберите роль",
+    "businessName": "Название бизнеса",
+    "district": "Район или область",
+    "telegram": "Telegram",
+    "bookingDate": "Дата брони",
+    "bookingTime": "Время брони"
+  },
+  "placeholders": {
+    "loginEmail": "owner@stadionhub.uz",
+    "password": "Введите пароль",
+    "stadiumName": "Tashkent Premium Arena",
+    "stadiumDescription": "Кратко опишите удобства, оборудование и состояние площадки.",
+    "address": "Улица или район",
+    "equipment": "Раздевалка",
+    "searchStadiums": "Поиск по названию или описанию стадиона",
+    "bookingNotes": "Необязательные примечания или детали игры",
+    "businessName": "Например, Chilonzor Arena",
+    "district": "Например, Чиланзарский район",
+    "telegram": "@название_стадиона",
+    "locationSearch": "Найти город",
+    "addressSearch": "Ищите по улице, району или области"
+  },
+  "nav": {
+    "stadiums": "Стадионы",
+    "dashboard": "Панель",
+    "ownerStats": "Статистика",
+    "admin": "Админ-панель",
+    "profile": "Профиль",
+    "settings": "Настройки"
+  },
+  "routeTitles": {
+    "stadiums": "Каталог стадионов",
+    "dashboard": "Панель по ролям",
+    "ownerStats": "Статистика владельца",
+    "admin": "Админ-панель",
+    "profile": "Профиль",
+    "settings": "Настройки"
+  },
+  "auth": {
+    "loginTitle": "Добро пожаловать",
+    "loginDescription": "Войдите, чтобы продолжить работу на платформе.",
+    "registerTitle": "Создание аккаунта",
+    "registerDescription": "Выберите роль и начните пользоваться платформой.",
+    "heroTitle": "Бронирование стадиона, подтверждение и статистика в одном месте.",
+    "heroDescription": "Рабочие процессы на основе ролей для пользователя, владельца стадиона и администратора.",
+    "heroNote": "Ниже показаны демонстрационные аккаунты.",
+    "sampleAccounts": "Демонстрационные аккаунты",
+    "sampleUser": "Пользователь",
+    "sampleOwner": "Владелец стадиона",
+    "alreadyHaveAccount": "Уже есть аккаунт?",
+    "loginHere": "Войдите здесь",
+    "needAccount": "Нужен аккаунт?",
+    "registerHere": "Зарегистрируйтесь здесь"
+  },
+  "empty": {
+    "noStadiumResults": "Стадионы не найдены",
+    "noStadiumResultsDescription": "Расширьте поиск или очистите фильтр по городу.",
+    "noReport": "Нет данных отчёта",
+    "noReportDescription": "Статистика появится здесь после активности вашего стадиона.",
+    "noBookingsYet": "Пока нет броней",
+    "noBookingsYetDescription": "Сначала забронируйте площадку в разделе «Стадионы».",
+    "noOwnerStadiums": "Пока нет стадионов",
+    "noOwnerStadiumsDescription": "Создайте стадион, чтобы начать получать брони.",
+    "noOwnerBookings": "Нет броней",
+    "noOwnerBookingsDescription": "Новые брони будут отображаться здесь для управления.",
+    "noUsersFound": "Пользователи не найдены"
+  },
+  "stadiumsPage": {
+    "eyebrow": "Рынок стадионов",
+    "title": "Найдите футбольные площадки по Узбекистану",
+    "description": "Ищите по городу, смотрите детали и переходите к бронированию с точным временем и ценами.",
+    "nearFilterLabel": "Рядом с: {label}",
+    "clearNearAria": "Очистить фильтр местоположения"
+  },
+  "stadiumDetails": {
+    "slotPrice": "Цена за час",
+    "rating": "Рейтинг",
+    "rateThisStadium": "Оцените этот стадион",
+    "rateThisStadiumHint": "Нажмите на звезду, чтобы отправить свою оценку этого стадиона.",
+    "owner": "Владелец",
+    "equipment": "Оборудование",
+    "workingHours": "Часы работы",
+    "workingHoursHint": "Показывает, в какие дни и часы работает владелец стадиона.",
+    "noWorkingHours": "Часы работы пока не указаны",
+    "bookingCardTitle": "Раздел бронирования",
+    "bookingCardDescription": "Используйте кнопку ниже, чтобы выбрать удобное время и отправить запрос на бронирование."
+  },
+  "bookingPage": {
+    "eyebrow": "Процесс бронирования",
+    "title": "Бронирование стадиона {name}",
+    "description": "Выберите свободное время, способ оплаты и отправьте бронь.",
+    "pendingNote": "После отправки владелец стадиона подтвердит или отклонит запрос.",
+    "availableTimes": "Доступное время",
+    "slotSelectionHint": "Нажмите на свободное время. Зачёркнутое время уже занято.",
+    "selectTimeFirst": "Сначала выберите подходящее время.",
+    "noAvailableSlots": "На выбранную дату свободного времени не найдено",
+    "startTimeLabel": "Время начала",
+    "endTimeLabel": "Время окончания",
+    "endSelectionHint": "После выбора времени начала выберите время окончания.",
+    "chooseStartFirst": "Сначала выберите время начала.",
+    "selectedSlotTitle": "Выбранное время",
+    "noEndTimeOptions": "Для этого времени начала не найдено вариантов окончания.",
+    "selectedDuration": "{hours} ч",
+    "clickRedirectHint": "При выборе оплаты 30% или 100% вы будете автоматически перенаправлены на Click.",
+    "confirmingBooking": "Отправка брони...",
+    "sendBookingRequest": "Отправить запрос на бронь"
+  },
+  "dashboard": {
+    "eyebrow": "Панель — {role}",
+    "title": "С возвращением, {name}",
+    "description": "Ваше рабочее пространство настроено под вашу роль.",
+    "sections": {
+      "myBookings": "Мои брони",
+      "myStadiums": "Мои стадионы",
+      "bookingRequests": "Запросы на бронь",
+      "recentBookings": "Последние брони"
+    },
+    "stats": {
+      "My stadiums": "Мои стадионы",
+      "Total bookings": "Всего броней",
+      "Pending bookings": "Ожидающие брони",
+      "Confirmed bookings": "Подтверждённые брони"
+    }
+  },
+  "reportsPage": {
+    "eyebrow": "Статистика владельца",
+    "title": "Финансовый обзор",
+    "description": "Отслеживайте доход, расходы и чистую прибыль/убыток.",
+    "bookingTrend": "Динамика ежемесячного дохода",
+    "bookingTrendHint": "Ежемесячный доход от подтверждённых броней, последнее значение отмечено.",
+    "statusBreakdown": "Распределение броней",
+    "statusBreakdownHint": "Посмотрите, как распределяются все ваши брони по статусу.",
+    "bookingHistory": "История броней",
+    "totalBookings": "Всего броней",
+    "confirmedBookings": "Подтверждённые брони",
+    "pendingRequests": "Ожидающие запросы",
+    "income": "Общий доход",
+    "expenses": "Общие расходы",
+    "netProfit": "Чистая прибыль",
+    "netLoss": "Чистый убыток"
+  },
+  "adminPage": {
+    "eyebrow": "Админ-панель",
+    "title": "Управление системой",
+    "description": "Управляйте пользователями, отслеживайте все брони и редактируйте настройки системы.",
+    "tabs": {
+      "stats": "Статистика",
+      "users": "Пользователи",
+      "bookings": "Брони",
+      "settings": "Настройки"
+    },
+    "statsHint": "Общее распределение по бронированиям всех владельцев стадионов.",
+    "stadiumOwners": "Владельцы стадионов",
+    "regularUsers": "Пользователи",
+    "admins": "Администраторы",
+    "activate": "Активировать",
+    "deactivate": "Деактивировать",
+    "siteName": "Название сайта",
+    "currency": "Валюта",
+    "supportPhone": "Телефон поддержки",
+    "supportEmail": "Email поддержки",
+    "minBookingNoticeHours": "Минимальный срок до брони (часы)"
+  },
+  "profilePage": {
+    "eyebrow": "Профиль",
+    "title": "Управление аккаунтом",
+    "description": "Держите видимую информацию профиля актуальной и аккуратной."
+  },
+  "settingsPage": {
+    "eyebrow": "Настройки",
+    "title": "Сессия и безопасность",
+    "description": "Управляйте текущей сессией.",
+    "sessionTitle": "Сессия",
+    "sessionDescription": "Сессия с токеном хранится на устройстве и восстанавливается автоматически до выхода.",
+    "securityTitle": "Управление безопасностью",
+    "securityDescription": "Используйте кнопку выхода, чтобы очистить сохранённую сессию на этом устройстве."
+  },
+  "notFoundPage": {
+    "eyebrow": "404",
+    "title": "Страница не найдена",
+    "description": "Запрошенная страница не существует в текущем приложении."
+  },
+  "forms": {
+    "stadium": {
+      "description": "Упростите объявление и чётко укажите каждый временной интервал."
+    }
+  },
+  "map": {
+    "title": "Карта стадионов Узбекистана",
+    "description": "Смотрите активные футбольные площадки в поддерживаемых городах Узбекистана.",
+    "searchPlaceholder": "Искать место на карте",
+    "miniStadium": "Мини-стадион",
+    "legendStadiums": "Наши стадионы",
+    "legendPitches": "Мини-стадионы OSM",
+    "pitchHint": "Приблизьте карту — мини-стадионы района отметятся значком ⚽.",
+    "attribution": "&copy; Данные OpenStreetMap",
+    "layers": {
+      "dark": "Тёмная",
+      "satellite": "Спутник",
+      "street": "Карта улиц"
+    }
+  },
+  "locationSearch": {
+    "searching": "Поиск...",
+    "noResults": "Ничего не найдено",
+    "error": "Не удалось выполнить поиск. Попробуйте позже."
+  },
+  "cards": {
+    "workingHoursShort": "Часы работы",
+    "ownerProfile": "Профиль владельца",
+    "perSlot": "за час",
+    "noRatingsYet": "Пока нет оценок"
+  },
+  "roles": {
+    "user": "Пользователь",
+    "stadiumOwner": "Владелец стадиона",
+    "admin": "Администратор"
+  },
+  "statuses": {
+    "pending": "Ожидает",
+    "confirmed": "Подтверждено",
+    "rejected": "Отклонено",
+    "cancelled": "Отменено"
+  },
+  "cities": {
+    "Tashkent": "Ташкент",
+    "Samarkand": "Самарканд",
+    "Bukhara": "Бухара",
+    "Namangan": "Наманган",
+    "Andijan": "Андижан",
+    "Fergana": "Фергана",
+    "Nukus": "Нукус",
+    "Karshi": "Карши",
+    "Termez": "Термез",
+    "Urgench": "Ургенч",
+    "Jizzakh": "Джизак",
+    "Gulistan": "Гулистан",
+    "Navoi": "Навои"
+  },
+  "paymentOptions": {
+    "PREPAY_30": {
+      "label": "Предоплата 30%",
+      "description": "Забронируйте место сейчас, остальное оплатите позже."
+    },
+    "FULL_100": {
+      "label": "Полная оплата 100%",
+      "description": "Оплатите полностью сейчас и получите скидку 10%."
+    },
+    "OFFLINE": {
+      "label": "Оплата на месте / офлайн",
+      "description": "Оплатите на месте после подтверждения брони."
+    }
+  },
+  "optionDescriptions": {
+    "roles": {
+      "user": "Ищите стадионы и бронируйте их.",
+      "stadiumOwner": "Создавайте стадионы, управляйте бронями и смотрите статистику."
+    }
+  },
+  "messages": {
+    "loginSuccess": "Вы успешно вошли",
+    "registerSuccess": "Аккаунт успешно создан",
+    "profileUpdated": "Профиль обновлён",
+    "settingsUpdated": "Настройки сохранены",
+    "stadiumUpdated": "Стадион обновлён",
+    "stadiumCreated": "Стадион создан",
+    "bookingUpdated": "Бронь обновлена",
+    "bookingRequestCreated": "Запрос на бронь отправлен",
+    "clickRedirectUnavailable": "Бронь сохранена. Ссылка перенаправления Click пока не настроена.",
+    "selectValidSlot": "Выберите корректный интервал времени",
+    "loggingIn": "Вход...",
+    "creatingAccount": "Создание аккаунта...",
+    "userUpdated": "Пользователь обновлён",
+    "ratingSubmitted": "Ваша оценка сохранена"
+  },
+  "errors": {
+    "generic": "Произошла ошибка. Пожалуйста, попробуйте снова.",
+    "apiUnavailable": "Не удалось подключиться к серверу.",
+    "loginFailed": "Не удалось войти",
+    "registrationFailed": "Не удалось зарегистрироваться",
+    "saveProfileFailed": "Не удалось сохранить профиль",
+    "saveStadiumFailed": "Не удалось сохранить стадион",
+    "updateBookingFailed": "Не удалось обновить бронь",
+    "updateUserFailed": "Не удалось обновить пользователя",
+    "updateSettingsFailed": "Не удалось сохранить настройки",
+    "bookingFailed": "Не удалось создать бронь",
+    "loadAvailabilityFailed": "Не удалось загрузить доступное время",
+    "authTokenRequired": "Требуется токен аутентификации",
+    "invalidToken": "Неверный токен",
+    "sessionInvalid": "Сессия больше недействительна",
+    "endpointNotFound": "Запрошенный адрес не найден",
+    "resourceNotFound": "Ресурс не найден",
+    "validEmail": "Введите корректный email адрес",
+    "passwordMin": "Пароль должен содержать не менее 8 символов",
+    "emailExists": "Аккаунт с этим email уже существует",
+    "invalidCredentials": "Неверный email или пароль",
+    "roleNotAllowed": "Выбранная роль недоступна для регистрации",
+    "locationRequired": "Требуется город и координаты",
+    "stadiumNotFound": "Стадион не найден",
+    "bookingNotFound": "Бронь не найдена",
+    "invalidPaymentOption": "Выбранный способ оплаты неверен",
+    "requiredFields": "Обязательные поля не заполнены",
+    "positiveNumber": "Значение должно быть положительным числом",
+    "bookingFieldsRequired": "Требуются стадион, дата, время начала, время окончания и способ оплаты",
+    "stadiumCityInvalid": "Город стадиона должен быть одним из поддерживаемых городов Узбекистана",
+    "stadiumCoordinatesInvalid": "Координаты стадиона должны находиться в пределах Узбекистана",
+    "stadiumLocationRequired": "Выберите местоположение стадиона на карте",
+    "stadiumImageRequired": "Загрузите хотя бы одно изображение стадиона",
+    "accessDenied": "У вас нет доступа к этому разделу",
+    "accountDeactivated": "Этот аккаунт деактивирован",
+    "atLeastOneWorkingDay": "Требуется хотя бы один рабочий день",
+    "workingDayFieldsRequired": "Для каждого включённого рабочего дня нужно время начала и окончания",
+    "workingDayTimeOrder": "Время окончания рабочего дня должно быть позже времени начала",
+    "stadiumUpdateOwnOnly": "Вы можете обновлять только свой собственный стадион",
+    "dateRequired": "Необходимо выбрать дату",
+    "userNotFound": "Пользователь не найден",
+    "invalidRole": "Неверная роль",
+    "stadiumClosedOnDay": "Стадион закрыт в выбранный день",
+    "endTimeAfterStart": "Время окончания должно быть позже времени начала",
+    "bookingHourSteps": "Время брони должно выбираться с шагом в 1 час",
+    "outsideWorkingHours": "Выбранное время вне часов работы стадиона",
+    "stadiumAlreadyBooked": "Стадион уже забронирован на выбранное время",
+    "bookingPermission": "У вас нет прав на управление этой бронью",
+    "onlyPendingCanConfirm": "Подтвердить можно только ожидающие брони",
+    "onlyPendingCanReject": "Отклонить можно только ожидающие брони",
+    "onlyPendingOrConfirmedCanEdit": "Редактировать можно только ожидающие или подтверждённые брони",
+    "cancelPermission": "У вас нет прав на отмену этой брони",
+    "invalidRating": "Оценка должна быть целым числом от 1 до 5",
+    "submitRatingFailed": "Не удалось отправить оценку",
+    "locationSearchQueryShort": "Введите минимум 2 символа для поиска",
+    "locationSearchUnavailable": "Поиск адреса временно недоступен. Повторите попытку позже.",
+    "locationCoordinatesRequired": "Требуются корректные координаты широты и долготы",
+    "locationOutsideUzbekistan": "Координаты должны находиться на территории Узбекистана"
+  },
+  "weekdays": {
+    "monday": "Понедельник",
+    "tuesday": "Вторник",
+    "wednesday": "Среда",
+    "thursday": "Четверг",
+    "friday": "Пятница",
+    "saturday": "Суббота",
+    "sunday": "Воскресенье"
+  },
+  "timePeriods": {
+    "morning": "Утренние часы",
+    "day": "Дневные часы",
+    "evening": "Вечерние часы"
+  },
+  "stadiumForm": {
+    "cityOnlyTitle": "Укажите только город и район Узбекистана",
+    "cityOnlyDescription": "Город выбирается из списка. Координаты устанавливаются системой автоматически.",
+    "coordinatesAuto": "Автоматические координаты: {lat}, {lng}",
+    "pickLocationHint": "Нажмите на карте место расположения стадиона, чтобы указать его."
+  }
+}

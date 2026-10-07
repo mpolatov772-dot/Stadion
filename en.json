@@ -1,0 +1,428 @@
+{
+  "meta": {
+    "title": "Goalix",
+    "description": "Goalix — a 3-role platform for stadium booking: user, stadium owner, and admin."
+  },
+  "app": {
+    "name": "Goalix",
+    "subtitle": "Stadium booking platform",
+    "desktopBadgeTitle": "A comfortable workflow for desktop",
+    "desktopBadgeDescription": "Built for managing stadiums and tracking bookings."
+  },
+  "common": {
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "reset": "Reset",
+    "save": "Save",
+    "search": "Search",
+    "loadingPage": "Loading page...",
+    "loadingSession": "Loading session...",
+    "loadingData": "Loading data...",
+    "loadingHint": "The server is preparing your data.",
+    "description": "Description",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone",
+    "fullName": "Full name",
+    "notes": "Notes",
+    "selectedVenue": "Selected stadium",
+    "paymentSummary": "Payment summary",
+    "totalPrice": "Total price",
+    "discount": "Discount",
+    "paidNow": "Paid now",
+    "remaining": "Remaining amount",
+    "finalTotal": "Final total",
+    "allCities": "All cities",
+    "businessInfo": "Business information",
+    "workingHours": "Working hours",
+    "noData": "No data found",
+    "image": "Image",
+    "error": "Error"
+  },
+  "buttons": {
+    "login": "Log in",
+    "register": "Sign up",
+    "logout": "Log out",
+    "logoutDevice": "Log out of this device",
+    "createAccount": "Create account",
+    "exploreStadiums": "Browse stadiums",
+    "viewStadium": "View stadium",
+    "bookNow": "Book now",
+    "loginToBook": "Log in to book",
+    "cancelBooking": "Cancel booking",
+    "approveBooking": "Confirm booking",
+    "rejectBooking": "Reject",
+    "saveProfile": "Save profile",
+    "uploadAvatar": "Upload avatar",
+    "uploadImages": "Upload images",
+    "createStadium": "Create stadium",
+    "updateStadium": "Update stadium",
+    "saveStadium": "Save stadium",
+    "returnHome": "Return home",
+    "retry": "Retry"
+  },
+  "labels": {
+    "stadiumName": "Stadium name",
+    "address": "Address",
+    "pricePerSlot": "Price per hour",
+    "operationalCost": "Operational cost",
+    "imageUrls": "Images",
+    "equipment": "Equipment",
+    "paymentOption": "Payment option",
+    "profileAvatar": "Avatar image",
+    "selectRole": "Select a role",
+    "businessName": "Business name",
+    "district": "District or area",
+    "telegram": "Telegram",
+    "bookingDate": "Booking date",
+    "bookingTime": "Booking time"
+  },
+  "placeholders": {
+    "loginEmail": "owner@stadionhub.uz",
+    "password": "Enter your password",
+    "stadiumName": "Tashkent Premium Arena",
+    "stadiumDescription": "Briefly describe the venue's comfort, equipment, and condition.",
+    "address": "Street or district",
+    "equipment": "Changing room",
+    "searchStadiums": "Search by stadium name or description",
+    "bookingNotes": "Optional notes or match details",
+    "businessName": "e.g. Chilonzor Arena",
+    "district": "e.g. Chilonzor district",
+    "telegram": "@stadium_name",
+    "locationSearch": "Search for a city",
+    "addressSearch": "Search by street, district, or region"
+  },
+  "nav": {
+    "stadiums": "Stadiums",
+    "dashboard": "Dashboard",
+    "ownerStats": "Statistics",
+    "admin": "Admin panel",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "routeTitles": {
+    "stadiums": "Stadium catalog",
+    "dashboard": "Role-based dashboard",
+    "ownerStats": "Owner statistics",
+    "admin": "Admin panel",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "loginDescription": "Log in to continue your work on the platform.",
+    "registerTitle": "Create an account",
+    "registerDescription": "Choose your role and start using the platform.",
+    "heroTitle": "Stadium booking, confirmation, and statistics — all in one place.",
+    "heroDescription": "Role-based workflows for users, stadium owners, and admins.",
+    "heroNote": "Sample accounts are shown below.",
+    "sampleAccounts": "Sample accounts",
+    "sampleUser": "User",
+    "sampleOwner": "Stadium owner",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginHere": "Log in here",
+    "needAccount": "Need an account?",
+    "registerHere": "Sign up here"
+  },
+  "empty": {
+    "noStadiumResults": "No stadiums found",
+    "noStadiumResultsDescription": "Broaden your search or clear the city filter.",
+    "noReport": "No report data",
+    "noReportDescription": "Statistics will appear here once your stadium has activity.",
+    "noBookingsYet": "No bookings yet",
+    "noBookingsYetDescription": "Book a venue first from the Stadiums section.",
+    "noOwnerStadiums": "No stadiums yet",
+    "noOwnerStadiumsDescription": "Create a stadium to start receiving bookings.",
+    "noOwnerBookings": "No bookings",
+    "noOwnerBookingsDescription": "New bookings will appear here for you to manage.",
+    "noUsersFound": "No users found"
+  },
+  "stadiumsPage": {
+    "eyebrow": "Stadium marketplace",
+    "title": "Find football venues across Uzbekistan",
+    "description": "Search by city, view the details, and move on to booking with exact times and prices.",
+    "nearFilterLabel": "Near: {label}",
+    "clearNearAria": "Clear location filter"
+  },
+  "stadiumDetails": {
+    "slotPrice": "Price per hour",
+    "rating": "Rating",
+    "rateThisStadium": "Rate this stadium",
+    "rateThisStadiumHint": "Click a star to submit your rating for this stadium.",
+    "owner": "Owner",
+    "equipment": "Equipment",
+    "workingHours": "Working hours",
+    "workingHoursHint": "Shows which days and hours the stadium owner operates.",
+    "noWorkingHours": "No working hours set yet",
+    "bookingCardTitle": "Booking section",
+    "bookingCardDescription": "Use the button below to pick a convenient time and send a booking request."
+  },
+  "bookingPage": {
+    "eyebrow": "Booking process",
+    "title": "Book {name}",
+    "description": "Pick a free time slot, choose a payment option, and send your booking.",
+    "pendingNote": "Once sent, the stadium owner will confirm or reject the request.",
+    "availableTimes": "Available times",
+    "slotSelectionHint": "Tap a free time. Crossed-out times are already booked.",
+    "selectTimeFirst": "First pick a time that works for you.",
+    "noAvailableSlots": "No free times found for the selected date",
+    "startTimeLabel": "Start time",
+    "endTimeLabel": "End time",
+    "endSelectionHint": "After picking a start time, choose an end time.",
+    "chooseStartFirst": "Pick a start time first.",
+    "selectedSlotTitle": "Selected time",
+    "noEndTimeOptions": "No end time options found for this start time.",
+    "selectedDuration": "{hours} h",
+    "clickRedirectHint": "Choosing 30% or 100% payment will redirect you to Click automatically.",
+    "confirmingBooking": "Sending booking...",
+    "sendBookingRequest": "Send booking request"
+  },
+  "dashboard": {
+    "eyebrow": "{role} dashboard",
+    "title": "Welcome back, {name}",
+    "description": "Your workspace is tailored to your role.",
+    "sections": {
+      "myBookings": "My bookings",
+      "myStadiums": "My stadiums",
+      "bookingRequests": "Booking requests",
+      "recentBookings": "Recent bookings"
+    },
+    "stats": {
+      "My stadiums": "My stadiums",
+      "Total bookings": "Total bookings",
+      "Pending bookings": "Pending bookings",
+      "Confirmed bookings": "Confirmed bookings"
+    }
+  },
+  "reportsPage": {
+    "eyebrow": "Owner statistics",
+    "title": "Financial overview",
+    "description": "Track income, expenses, and your net profit/loss.",
+    "bookingTrend": "Monthly income trend",
+    "bookingTrendHint": "Monthly income from confirmed bookings, with the latest value labeled.",
+    "statusBreakdown": "Booking breakdown",
+    "statusBreakdownHint": "See how all your bookings are distributed by status.",
+    "bookingHistory": "Booking history",
+    "totalBookings": "Total bookings",
+    "confirmedBookings": "Confirmed bookings",
+    "pendingRequests": "Pending requests",
+    "income": "Total income",
+    "expenses": "Total expenses",
+    "netProfit": "Net profit",
+    "netLoss": "Net loss"
+  },
+  "adminPage": {
+    "eyebrow": "Admin panel",
+    "title": "System management",
+    "description": "Manage users, track all bookings, and edit system settings.",
+    "tabs": {
+      "stats": "Statistics",
+      "users": "Users",
+      "bookings": "Bookings",
+      "settings": "Settings"
+    },
+    "statsHint": "Overall distribution across every stadium owner's bookings.",
+    "stadiumOwners": "Stadium owners",
+    "regularUsers": "Users",
+    "admins": "Admins",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "siteName": "Site name",
+    "currency": "Currency",
+    "supportPhone": "Support phone",
+    "supportEmail": "Support email",
+    "minBookingNoticeHours": "Minimum booking notice (hours)"
+  },
+  "profilePage": {
+    "eyebrow": "Profile",
+    "title": "Manage your account",
+    "description": "Keep your visible profile information clean and up to date."
+  },
+  "settingsPage": {
+    "eyebrow": "Settings",
+    "title": "Session and security",
+    "description": "Manage your current session.",
+    "sessionTitle": "Session",
+    "sessionDescription": "Your token session is stored on this device and restores automatically until you log out.",
+    "securityTitle": "Security",
+    "securityDescription": "Use the logout button to clear the saved session on this device."
+  },
+  "notFoundPage": {
+    "eyebrow": "404",
+    "title": "Page not found",
+    "description": "The requested page doesn't exist in the current app."
+  },
+  "forms": {
+    "stadium": {
+      "description": "Keep the listing simple and clearly show each time slot."
+    }
+  },
+  "map": {
+    "title": "Uzbekistan stadium map",
+    "description": "See active football venues in the supported Uzbekistan cities.",
+    "searchPlaceholder": "Search a place on the map",
+    "miniStadium": "Mini stadium",
+    "legendStadiums": "Our stadiums",
+    "legendPitches": "OSM mini stadiums",
+    "pitchHint": "Zoom in — nearby mini stadiums appear with a ⚽ marker.",
+    "attribution": "&copy; OpenStreetMap contributors",
+    "layers": {
+      "dark": "Dark",
+      "satellite": "Satellite",
+      "street": "Street map"
+    }
+  },
+  "locationSearch": {
+    "searching": "Searching...",
+    "noResults": "No results found",
+    "error": "Search failed. Please try again shortly."
+  },
+  "cards": {
+    "workingHoursShort": "Hours",
+    "ownerProfile": "Owner profile",
+    "perSlot": "per hour",
+    "noRatingsYet": "No ratings yet"
+  },
+  "roles": {
+    "user": "User",
+    "stadiumOwner": "Stadium owner",
+    "admin": "Administrator"
+  },
+  "statuses": {
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "rejected": "Rejected",
+    "cancelled": "Cancelled"
+  },
+  "cities": {
+    "Tashkent": "Tashkent",
+    "Samarkand": "Samarkand",
+    "Bukhara": "Bukhara",
+    "Namangan": "Namangan",
+    "Andijan": "Andijan",
+    "Fergana": "Fergana",
+    "Nukus": "Nukus",
+    "Karshi": "Karshi",
+    "Termez": "Termez",
+    "Urgench": "Urgench",
+    "Jizzakh": "Jizzakh",
+    "Gulistan": "Gulistan",
+    "Navoi": "Navoi"
+  },
+  "paymentOptions": {
+    "PREPAY_30": {
+      "label": "30% prepayment",
+      "description": "Reserve the slot now and pay the rest later."
+    },
+    "FULL_100": {
+      "label": "100% full payment",
+      "description": "Pay in full now and get a 10% discount."
+    },
+    "OFFLINE": {
+      "label": "Pay on site / offline",
+      "description": "Pay in person once the booking is confirmed."
+    }
+  },
+  "optionDescriptions": {
+    "roles": {
+      "user": "Search for stadiums and book them.",
+      "stadiumOwner": "Create stadiums, manage bookings, and view statistics."
+    }
+  },
+  "messages": {
+    "loginSuccess": "Logged in successfully",
+    "registerSuccess": "Account created successfully",
+    "profileUpdated": "Profile updated",
+    "settingsUpdated": "Settings saved",
+    "stadiumUpdated": "Stadium updated",
+    "stadiumCreated": "Stadium created",
+    "bookingUpdated": "Booking updated",
+    "bookingRequestCreated": "Booking request sent",
+    "clickRedirectUnavailable": "Booking saved. The Click redirect link isn't configured yet.",
+    "selectValidSlot": "Please select a valid time slot",
+    "loggingIn": "Logging in...",
+    "creatingAccount": "Creating account...",
+    "userUpdated": "User updated",
+    "ratingSubmitted": "Your rating was saved"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "apiUnavailable": "Couldn't connect to the server.",
+    "loginFailed": "Login failed",
+    "registrationFailed": "Registration failed",
+    "saveProfileFailed": "Couldn't save profile",
+    "saveStadiumFailed": "Couldn't save stadium",
+    "updateBookingFailed": "Couldn't update booking",
+    "updateUserFailed": "Couldn't update user",
+    "updateSettingsFailed": "Couldn't save settings",
+    "bookingFailed": "Booking failed",
+    "loadAvailabilityFailed": "Couldn't load available times",
+    "authTokenRequired": "Authentication token is required",
+    "invalidToken": "Invalid token",
+    "sessionInvalid": "Session is no longer valid",
+    "endpointNotFound": "The requested endpoint was not found",
+    "resourceNotFound": "Resource not found",
+    "validEmail": "Please enter a valid email address",
+    "passwordMin": "Password must be at least 8 characters",
+    "emailExists": "An account with this email already exists",
+    "invalidCredentials": "Invalid email or password",
+    "roleNotAllowed": "The selected role isn't allowed for signup",
+    "locationRequired": "A city and coordinates are required",
+    "stadiumNotFound": "Stadium not found",
+    "bookingNotFound": "Booking not found",
+    "invalidPaymentOption": "The selected payment option is invalid",
+    "requiredFields": "Required fields are missing",
+    "positiveNumber": "The value must be a positive number",
+    "bookingFieldsRequired": "Stadium, date, start time, end time, and payment option are required",
+    "stadiumCityInvalid": "The stadium city must be one of the supported Uzbekistan cities",
+    "stadiumCoordinatesInvalid": "Stadium coordinates must be inside Uzbekistan",
+    "stadiumLocationRequired": "Pick the stadium's location on the map",
+    "stadiumImageRequired": "Upload at least one stadium image",
+    "accessDenied": "You don't have access to this section",
+    "accountDeactivated": "This account has been deactivated",
+    "atLeastOneWorkingDay": "At least one working day is required",
+    "workingDayFieldsRequired": "Each enabled working day needs a start and end time",
+    "workingDayTimeOrder": "The working day's end time must be after its start time",
+    "stadiumUpdateOwnOnly": "You can only update your own stadium",
+    "dateRequired": "A date must be selected",
+    "userNotFound": "User not found",
+    "invalidRole": "Invalid role",
+    "stadiumClosedOnDay": "The stadium is closed on the selected day",
+    "endTimeAfterStart": "End time must be after the start time",
+    "bookingHourSteps": "Booking time must be selected in 1-hour steps",
+    "outsideWorkingHours": "The selected time is outside the stadium's working hours",
+    "stadiumAlreadyBooked": "The stadium is already booked for the selected time",
+    "bookingPermission": "You don't have permission to manage this booking",
+    "onlyPendingCanConfirm": "Only pending bookings can be confirmed",
+    "onlyPendingCanReject": "Only pending bookings can be rejected",
+    "onlyPendingOrConfirmedCanEdit": "Only pending or confirmed bookings can be edited",
+    "cancelPermission": "You don't have permission to cancel this booking",
+    "invalidRating": "Rating must be a whole number from 1 to 5",
+    "submitRatingFailed": "Couldn't submit your rating",
+    "locationSearchQueryShort": "Enter at least 2 characters to search",
+    "locationSearchUnavailable": "Address search is temporarily unavailable. Please try again shortly.",
+    "locationCoordinatesRequired": "Valid latitude and longitude are required",
+    "locationOutsideUzbekistan": "Coordinates must be inside Uzbekistan"
+  },
+  "weekdays": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "timePeriods": {
+    "morning": "Morning hours",
+    "day": "Daytime hours",
+    "evening": "Evening hours"
+  },
+  "stadiumForm": {
+    "cityOnlyTitle": "Enter only the Uzbekistan city and district",
+    "cityOnlyDescription": "The city is picked from a list. Coordinates are set automatically by the system.",
+    "coordinatesAuto": "Automatic coordinates: {lat}, {lng}",
+    "pickLocationHint": "Click the stadium's location on the map to set it."
+  }
+}
